@@ -1,0 +1,7 @@
+# Requirements are split by environment (Windows path-length + GPU-torch reasons):
+#
+#   LOCAL laptop / CPU :  see requirements-local.txt   (install torch-cpu first)
+#   COLAB / Kaggle GPU :  see requirements-colab.txt
+#
+# Do NOT `pip install -r requirements.txt` on Windows — it pulls the multi-GB CUDA
+# torch whose deeply-nested license files exceed the 260-char path limit.

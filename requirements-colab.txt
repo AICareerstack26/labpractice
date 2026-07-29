@@ -1,0 +1,15 @@
+# ── Colab / Kaggle (GPU already present). Do NOT reinstall torch. ──
+langfuse>=2.50
+ragas>=0.2
+sentence-transformers>=3.0
+FlagEmbedding>=1.2
+faiss-cpu>=1.8
+qdrant-client>=1.11
+rank_bm25>=0.2
+langchain>=0.3
+langchain-community>=0.3
+langchain-groq>=0.2
+langgraph>=0.2
+llama-index>=0.11
+# Track 2/3 only:
+# vllm  unsloth  trl  peft  bitsandbytes  autoawq

@@ -1,0 +1,30 @@
+# ── Local / CPU install (laptop). Install torch CPU FIRST, then this file. ──
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements-local.txt
+python-dotenv>=1.0
+pandas>=2.0
+numpy>=1.24,<2.0
+
+langfuse>=2.50
+ragas>=0.2
+
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+qdrant-client>=1.11
+rank_bm25>=0.2
+redis>=5.0
+redisvl>=0.3
+
+langchain>=0.3
+langchain-community>=0.3
+langchain-groq>=0.2
+langchain-text-splitters>=0.3
+langgraph>=0.2
+
+pypdf>=5.0
+pdfplumber>=0.11
+PyMuPDF>=1.24
+reportlab>=4.0
+
+jupyter>=1.0
+ipywidgets>=8.0
